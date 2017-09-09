@@ -1,0 +1,22 @@
+{
+    "name": "lankoa2",
+    "version": "1.0.0",
+    "description": "Hello Koa 2 example with async",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "lanleilin",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lanleilin/lanNodeTest.git"
+    },
+    "dependencies": {
+        "koa": "2.0.0"
+    }
+}
