@@ -15,5 +15,14 @@ module.exports = {
         ctx.response.body = {
             products: products
         };
+    },
+    'POST /api/products': async(ctx, next) => {
+        var p = {
+            name: ctx.request.body.name,
+            price: ctx.request.body.price
+        };
+        products.push(p);
+        ctx.response.type = 'application/json';
+        ctx.response.body = p;
     }
 }
